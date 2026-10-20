@@ -1,0 +1,88 @@
+
+/* BACKGROUND HALAMAN */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Putih */
+    margin: 0;
+    padding: 40px;
+}
+
+/* KOTAK UTAMA */
+.container {
+    max-width: 1500px;
+    margin: auto;
+    padding: 0;
+    background-color: #ffffff; /* Putih */
+}
+
+/* JUDUL DATA MAHASISWA UMRI */
+h1 {
+    color: #008000; /* HIJAU */
+    font-size: 50px;
+    margin-bottom: 32px;
+}
+
+/* INPUT NAMA DAN KELAS */
+input {
+    padding: 4px;
+    background-color: #ffffff; /* Putih */
+    color: #000000; /* Hitam */
+    border: 1px solid #808080; /* Abu-abu */
+}
+
+/* TOMBOL TAMBAH DATA */
+button {
+    padding: 4px 10px;
+    background-color: #f0f0f0; /* Abu-abu sangat muda */
+    color: #000000; /* Hitam */
+    border: 1px solid #808080; /* Abu-abu */
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* TOMBOL SAAT KURSOR DIARAHKAN */
+button:hover {
+    background-color: #dcdcdc; /* Abu-abu lebih gelap */
+}
+
+/* TABEL DATA MAHASISWA */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 24px;
+}
+
+/* HEADER TABEL: NO, NAMA, KELAS, AKSI */
+th {
+    background-color: #66ff00; /* Hijau terang */
+    color: #000000; /* Hitam */
+    padding: 18px;
+    text-align: left;
+    border: 1px solid #d9d9d9; /* Abu-abu muda */
+}
+
+/* ISI TABEL */
+td {
+    background-color: #ffffff; /* Putih */
+    color: #001f3f; /* Biru sangat gelap */
+    padding: 20px 18px;
+    border: 1px solid #d9d9d9; /* Abu-abu muda */
+}
+
+/* BARIS GENAP TABEL */
+tr:nth-child(even) td {
+    background-color: #f6f8fa;
+    /* Abu-abu sangat muda */
+}
+
+/* GARIS TABEL */
+th, td {
+    border-color: #d9d9d9; /* Abu-abu muda */
+}
+
+/* TOMBOL HAPUS */
+.hapus {
+    background-color: #f0f0f0; /* Abu-abu sangat muda */
+    color: #000000; /* Hitam */
+    border: 1px solid #808080; /* Abu-abu */
+}

@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRATIKUM WEB RIKO SEPTIANTO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>DATA MAHASISWA KAMPUS RIKO</h1>
+
+        <!-- FORM INPUT DATA -->
+        <input type="text" id="nama"
+               placeholder="Masukkan nama mahasiswa">
+
+        <input type="text" id="kelas"
+               placeholder="Masukkan kelas">
+
+        <button type="button" onclick="tambahData()">
+            Tambah Data
+        </button>
+
+        <br><br>
+
+        <!-- TABEL MAHASISWA -->
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>Kelas</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+
+            <tbody id="isiTabel">
+                <tr>
+                    <td>1</td>
+                    <td>MARTIN</td>
+                    <td>3B1 SISTEM INFORMASI</td>
+                    <td>
+                        <button type="button" class="hapus"
+                            onclick="hapusData(this)">
+                            Hapus
+                        </button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>PETER PARKER</td>
+                    <td>3B1 SISTEM INFORMASI</td>
+                    <td>
+                        <button type="button" class="hapus"
+                            onclick="hapusData(this)">
+                            Hapus
+                        </button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>FRANCO</td>
+                    <td>3B1 SISTEM INFORMASI</td>
+                    <td>
+                        <button type="button" class="hapus"
+                            onclick="hapusData(this)">
+                            Hapus
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- MENGHUBUNGKAN JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
